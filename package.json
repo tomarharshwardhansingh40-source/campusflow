@@ -7,6 +7,8 @@
     "dev:client": "npm --prefix client run dev",
     "build": "npm --prefix client run build",
     "start": "npm --prefix server start",
-    "seed": "npm --prefix server run seed"
+    "seed": "npm --prefix server run seed",
+    "db:counts": "npm --prefix server run db:counts",
+    "db:studio": "npm --prefix server run db:studio"
   }
 }
